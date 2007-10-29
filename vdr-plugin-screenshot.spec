@@ -2,7 +2,7 @@
 %define plugin	screenshot
 %define name	vdr-plugin-%plugin
 %define version	0.0.11
-%define rel	10
+%define rel	11
 
 Summary:	VDR plugin: Takes screenshots
 Name:		%name
