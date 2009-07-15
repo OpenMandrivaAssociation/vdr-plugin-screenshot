@@ -1,8 +1,8 @@
 
 %define plugin	screenshot
 %define name	vdr-plugin-%plugin
-%define version	0.0.11
-%define rel	15
+%define version	0.0.13
+%define rel	1
 
 Summary:	VDR plugin: Takes screenshots
 Name:		%name
@@ -12,7 +12,6 @@ Group:		Video
 License:	GPL
 URL:		http://www.joachim-wilke.de/vdr-screenshot.htm
 Source:		vdr-%plugin-%version.tar.bz2
-Patch0:		screenshot-0.0.11-i18n-1.6.patch
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	vdr-devel >= 1.6.0
 Requires:	vdr-abi = %vdr_abi
@@ -25,7 +24,6 @@ where title is the current transmission or the recording currently replayed.
 
 %prep
 %setup -q -n %plugin-%version
-%patch0 -p1
 %vdr_plugin_prep
 
 %build
