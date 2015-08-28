@@ -3,7 +3,7 @@
 Summary:	VDR plugin: Takes screenshots
 Name:		vdr-plugin-%plugin
 Version:	0.0.13
-Release:	4
+Release:	5
 Group:		Video
 License:	GPL
 URL:		http://www.joachim-wilke.de/vdr-screenshot.htm
