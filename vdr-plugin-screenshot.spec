@@ -6,7 +6,7 @@ Version:	0.0.13
 Release:	5
 Group:		Video
 License:	GPL
-URL:		http://www.joachim-wilke.de/vdr-screenshot.htm
+URL:		https://www.joachim-wilke.de/vdr-screenshot.htm
 Source:		vdr-%plugin-%{version}.tar.bz2
 BuildRequires:	vdr-devel >= 1.6.0
 Requires:	vdr-abi = %vdr_abi
